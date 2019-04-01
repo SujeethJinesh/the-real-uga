@@ -47,6 +47,18 @@ class LandingPage extends Component {
                 </form>
             </div>
         </div>
+        <div className="donation">
+          In all seriousness, if you really want to make a difference in someone's life please considering donating!
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://suicidepreventionlifeline.org/donate/">Suicide Prevention Lifeline</a>
+          </p>
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.redcross.org/donate/donation.html/">American Red Cross</a>
+          </p>
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://donate.unicefusa.org/page/contribute">UNICEF</a>
+          </p>
+        </div>
       </div>
     );
   }

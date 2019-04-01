@@ -53,7 +53,7 @@ html, body {
 }
 
 .printButton {
-  padding-bottom: 3%;
+  padding-bottom: 3.5%;
 }
 
 * {
@@ -81,4 +81,10 @@ html, body {
 
 input[name=printEnterName] {
   pointer-events: none;
+}
+
+.donation {
+  padding: 2%;
+  font-weight: bold;
+  max-width: 70%;
 }
