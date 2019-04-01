@@ -33,7 +33,7 @@ class LandingPage extends Component {
     return (
       <div className="App">
         <div className="congratsText">
-          Congratulations on existing! We have noticed your hard work and want to reward you with a degree from U(sic)GA. <p className="goDawgs">GO DAWGS</p> Just enter your name!
+          Congratulations on existing! We have noticed your hard work and want to reward you with a degree from U[sic]GA. <p className="goDawgs">GO DAWGS</p> Just enter your name!
         </div>
         <div className="diploma">
           <input id="nameInput" type="text" className="enterName" value={this.state.name} onChange={(e) => {this.onValueChange(e)}} placeholder="Insert Name Here" onFocus="if(this.value==this.defaultValue)this.value='';"/>
