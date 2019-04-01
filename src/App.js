@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path="/print/:name" component={PrintPage} />
+          <Route exact path="/print/:name" component={PrintPage} />
           <Route path="/" component={LandingPage} />
         </Switch>
       </Router>

@@ -39,13 +39,10 @@ class LandingPage extends Component {
           <input id="nameInput" type="text" className="enterName" value={this.state.name} onChange={(e) => {this.onValueChange(e)}} placeholder="Insert Name Here" onFocus="if(this.value==this.defaultValue)this.value='';"/>
         </div>
         <div className="printButton">
-          <Button variant="outline-dark" size="lg" onClick={this.handleClick}>
-            Print your diploma
-          </Button>
           <div className="outline-dark">
                 <form action="">
-                    <Link to={'/print/' + this.state.name}>
-                        <input type="button" className="outline-dark" value="Print your diploma"/>
+                    <Link to={`/print/${this.state.name}`}>
+                        <input type="button" className="outline-dark" value="Print your diploma"/>                            
                     </Link>
                 </form>
             </div>
