@@ -3,7 +3,6 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import ReactGA from 'react-ga';
 
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 class LandingPage extends Component {
