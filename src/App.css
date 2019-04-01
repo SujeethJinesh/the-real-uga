@@ -46,9 +46,10 @@ html, body {
 
 .enterName {
   margin-top: 36.5vh !important;
-  height: 45px !important;
+  height: 65px !important;
   text-align: center;
   font-family: diploma;
+  font-size: 2rem;
 }
 
 .printButton {
@@ -71,4 +72,13 @@ html, body {
   color: red;
   margin: 0;
   padding: 0;
+}
+
+.noBorder {
+  outline: none;
+  border: none;
+}
+
+input[name=printEnterName] {
+  pointer-events: none;
 }

@@ -23,7 +23,7 @@ class PrintPage extends Component {
     return (
       <div className="App">
         <div className="diploma">
-          <input id="nameInput" type="text" className="enterName" placeholder={name}/>
+          <input id="nameInput" name="printEnterName" type="text" className="enterName noBorder" placeholder={name}/>
         </div>
       </div>
     );
