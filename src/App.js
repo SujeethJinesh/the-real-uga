@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="congratsText">
-          Congratulations on being a Tech Student! We have noticed your hard work and want to reward you with a degree.
+          Congratulations on existing! We have noticed your hard work and want to reward you with a degree from U(sic)GA. <p className="goDawgs">GO DAWGS</p> Just enter your name!
         </div>
         <div className="diploma">
           <input id="nameInput" type="text" className="enterName" placeholder="Insert Name Here" onFocus="if(this.value==this.defaultValue)this.value='';"/>

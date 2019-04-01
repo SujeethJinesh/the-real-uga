@@ -61,5 +61,14 @@ html, body {
 }
 
 .congratsText {
+  padding-bottom: 1%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  max-width: 70%;
+}
 
+.goDawgs {
+  color: red;
+  margin: 0;
+  padding: 0;
 }
